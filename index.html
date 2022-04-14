@@ -1,0 +1,30 @@
+<html>
+<body>
+    
+<style>
+    h1
+    {
+        color:blue;
+        background-color: pink;
+    }
+    img
+    {
+        width: 400px;
+        height:400px;
+    }
+</style>
+      <center> <h1><marquee behavior="" direction="right">Happy birthday kaveri</marquee>
+      </h1></center>
+<script>
+    for(let i=0;i<=100;i++)
+    {
+    var h1=document.createElement("h1");
+    var marquee=document.createElement("marquee");
+    marquee.innerText="Happy birthday kaveri "+i+" times ";
+    h1.append(marquee);
+    document.body.append(h1);
+    }
+    // alert("hello akhilesh reddy");
+</script>
+    </body>
+</html>
